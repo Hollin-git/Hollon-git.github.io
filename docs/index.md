@@ -16,3 +16,10 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 * `site` - 构建文档的输出目录.
 
 # **请去留言板留言。**
+### 函数
+```python
+需要设置 python的 PythonPath 参数 不然找不到 模块 src.test
+设置方法 命令行执行 下面命令
+$Env:PYTHONPATH="D:\Cloud\blog\mkdocs-prod\Hollon-git.github.io"
+```
+::: src.test
