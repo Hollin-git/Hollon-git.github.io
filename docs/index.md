@@ -35,3 +35,7 @@ plugins:
 
 ```
 ::: src.test
+
+--- 
+
+::: src.mymodule
