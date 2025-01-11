@@ -1,5 +1,82 @@
-site_name: 网站名字
+site_name: 网站
 site_url: http://127.0.0.1:8000
-site_author: 你的名字
+site_author: Hollin-git
+
+# 主题 
+#[UI]
 theme:
-  name: material #主题
+  features:
+    - navigation.tabs
+  name: material
+  custom_dir: docs/overrides #覆写路径
+  # font: #谷歌字体，自行搜索
+  #   text: Bitter  #文本字体
+  #   code: Roboto Mono  #代码字体
+  # logo: assets/favicon.png #左上角logo，可插入图片链接
+
+  favicon: https://s2.loli.net/2024/04/26/PmRdM9iGnvOJHgu.png # 网页icon
+
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/link
+        name: 关闭自动模式
+    #primary: blue grey
+    - media: "(prefers-color-scheme: light)"
+      scheme: default # 日间模式
+      primary: blue grey # 上方的
+      accent: blue # 链接等可交互元件的高亮色
+      # teal
+      toggle:
+        icon: material/toggle-switch # 图标
+        name: 切换至夜间模式 # 鼠标悬浮提示
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate # 夜间模式
+      primary: black
+      accent: indigo
+      # teal
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: 切换至日间模式
+
+
+# [Navigtion]
+nav:   #目录
+
+  - 标签: tag.md
+  - 留言板: 
+      - github版: liuyanban.md
+      - 免登录版: liuyanban2.md
+  - Blogger:
+      - index: blog/index.md
+  - 友链:
+      - 友链: about/link.md
+  - 关于:
+      - 作者简介: about/author.md
+      - 项目功能: about/project.md
+
+copyright: Copyright &copy; 2022~2024 Hollin/All Rights Reserved. # 左下角的版权声明
+
+extra:
+  generator: true #是否删除页脚显示 
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Hollin-git
+  analytics:
+    provider: google #谷歌分析
+    property:
+
+    feedback:
+      title: 此页面有帮助吗？
+      ratings:
+        - icon: material/thumb-up-outline #图标可自定义
+          name: This page was helpful
+          data: 1
+          note: >-
+            谢谢你的反馈！
+        - icon: material/thumb-down-outline
+          name: This page could be improved
+          data: 0
+          note: >-
+            Thanks for your feedback! Help us improve this page by
+            using our <a href="https://marketingplatform.google.com/about/analytics/" target="_blank" rel="noopener">feedback form</a>.
