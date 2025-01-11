@@ -1,4 +1,4 @@
-site_name: 网站
+site_name: Hollin
 site_url: http://127.0.0.1:8000
 site_author: Hollin-git
 
@@ -6,7 +6,8 @@ site_author: Hollin-git
 #[UI]
 theme:
   features:
-    - navigation.tabs
+    - navigation.instant
+    - navigation.instant.prefetch
   name: material
   custom_dir: docs/overrides #覆写路径
   # font: #谷歌字体，自行搜索
