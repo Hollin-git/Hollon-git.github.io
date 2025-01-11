@@ -1,0 +1,5 @@
+site_name: 网站名字
+site_url: 网站链接
+site_author: 你的名字
+theme:
+  name: material #主题
