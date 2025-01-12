@@ -22,7 +22,7 @@ jobs:
       - run: python -V && echo ${PYTHONPATH}
     #  - run: $Env:PYTHONPATH="/home/runner/work/hollin-git.github.io/hollin-git.github.io"
       - run: pip install mkdocstrings[python]
-      - run: export PYTHONPATH="/home/runner/work/hollin-git.github.io/hollin-git.github.io"
-      - run: export PATH="/home/runner/work/hollin-git.github.io/hollin-git.github.io:$PATH"
-      - run: ll -R /home/runner/work/hollin-git.github.io
+    #  - run: export PYTHONPATH="/home/runner/work/hollin-git.github.io/hollin-git.github.io"
+      - run: export PATH="/home/runner/work/hollin-git.github.io:$PATH"
+      - run: ls -lR /home/runner/work/hollin-git.github.io
       - run: mkdocs gh-deploy --force
