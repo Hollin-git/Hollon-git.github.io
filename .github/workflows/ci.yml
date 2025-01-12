@@ -18,12 +18,24 @@ jobs:
         with:
           python-version: 3.x
 
+      - run: pip install mkdocs-git-revision-date-localized-plugin
+      - run: pip install mkdocs-git-authors-plugin
+      - run: pip install mkdocs-git-committers-plugin-2
+      - run: pip install mkdocs-rss-plugin
+      - run: pip install jieba
+      - run: pip install mkdocs-markdownextradata-plugin
+      - run: pip install mkdocs-glightbox
+      - run: pip install mkdocstrings[python]  
+
       - run: pip install mkdocs-material 
-      - run: python -V && echo ${PYTHONPATH}
+      - run: pip install --upgrade --force-reinstall mkdocs-material
+
+     
     #  - run: $Env:PYTHONPATH="/home/runner/work/hollin-git.github.io/hollin-git.github.io"
-      - run: pip install mkdocstrings[python]
+      
     #  - run: export PYTHONPATH="/home/runner/work/hollin-git.github.io/hollin-git.github.io"
     # 他们ubuntu会自己增加路径./hollin-git.github.io/src  所以需要使用src/src 才可以，其中第二个src 才是 包名路径
       - run: export PATH="/home/runner/work/hollin-git.github.io:$PATH"
+      - run: python -V && echo ${PYTHONPATH}
       - run: ls -lR /home/runner/work/hollin-git.github.io
       - run: mkdocs gh-deploy --force
