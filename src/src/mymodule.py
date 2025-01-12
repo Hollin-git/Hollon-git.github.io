@@ -32,6 +32,7 @@ class MyClass:
 
         >>> display_value(10)
         10
+        
         >>> add(5)
         15
 

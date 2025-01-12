@@ -23,6 +23,7 @@ jobs:
     #  - run: $Env:PYTHONPATH="/home/runner/work/hollin-git.github.io/hollin-git.github.io"
       - run: pip install mkdocstrings[python]
     #  - run: export PYTHONPATH="/home/runner/work/hollin-git.github.io/hollin-git.github.io"
+    # 他们ubuntu会自己增加路径./hollin-git.github.io/src  所以需要使用src/src 才可以，其中第二个src 才是 包名路径
       - run: export PATH="/home/runner/work/hollin-git.github.io:$PATH"
       - run: ls -lR /home/runner/work/hollin-git.github.io
       - run: mkdocs gh-deploy --force

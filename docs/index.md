@@ -15,6 +15,7 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 * `mkdocs.yml` - 配置文件.
 * `site` - 构建文档的输出目录.
 
+::: mymodule.TestGoogle
 # **请去留言板留言。**
 ### 函数
 ```SQL
