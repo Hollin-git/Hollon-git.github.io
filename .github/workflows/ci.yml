@@ -22,4 +22,5 @@ jobs:
       - run: python -V && echo ${PYTHONPATH}
     #  - run: $Env:PYTHONPATH="/home/runner/work/hollin-git.github.io/hollin-git.github.io"
       - run: pip install mkdocstrings[python]
+      - run: export PYTHONPATH=${PYTHONPATH}:/home/runner/work/hollin-git.github.io/hollin-git.github.io
       - run: mkdocs gh-deploy --force
