@@ -19,6 +19,7 @@ jobs:
           python-version: 3.x
 
       - run: pip install mkdocs-material 
+      - run: python -V && echo ${PYTHONPATH}
       - run: $Env:PYTHONPATH="/home/runner/work/hollin-git.github.io/hollin-git.github.io"
       - run: pip install mkdocstrings[python]
       - run: mkdocs gh-deploy --force
