@@ -1,3 +1,6 @@
+---
+title: 首页
+---
 # Welcome to MkDocs & Python
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
@@ -60,7 +63,9 @@ plugins:
 ::: src.mymodule
 
 
-
+git add .
+git commit -m "[+] 提交"
+git push origin main
 知识领域	细分领域	1启动过程组	2规划过程组	3执行过程组	4监控过程组	5收尾过程组
 整合管理	制定项目章程	制定项目章程				
   制定项目管理计划		制定项目管理计划			

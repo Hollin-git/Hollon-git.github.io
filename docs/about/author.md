@@ -1,5 +1,5 @@
 ---
-title:  我们
+title:  介绍
 # 隐藏的模块
 hide:
   #  - navigation # 隐藏左边导航

@@ -88,19 +88,19 @@ theme:
 
 
 # [Navigtion]
-nav:   #目录
+# nav:   #目录
 
-  - 标签: index.md
-  - 留言板: 
-      - github版: liuyanban.md
-      - 免登录版: liuyanban2.md
-  - 知识管理:
-      - 项目: blog/index.md
-  - 友链:
-      - 友链: readme.md
-  - 关于:
-      - 作者简介: about/author.md
-      - 项目功能: about/project.md
+#   - 标签: index.md
+#   - 留言板: 
+#       - github版: liuyanban.md
+#       - 免登录版: liuyanban2.md
+#   - 文档:
+#       - 项目: blog/index.md
+#   - 友链:
+#       - 友链: blog/youlian.md
+#   - 关于:
+#       - 作者简介: about/author.md
+#       - 项目功能: about/project.md
 
 copyright: Copyright &copy; 2022~2024 Hollin/All Rights Reserved. # 左下角的版权声明
 

@@ -5,7 +5,7 @@ hide:
   #  - toc #显示左
   #  - footer
   #  - feedback  
-comments: true  #默认不开启评论
+comments: false  #默认不开启评论
 
 ---
 
