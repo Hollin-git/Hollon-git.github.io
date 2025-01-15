@@ -1,27 +1,30 @@
 ---
 title: 首页
 ---
-# Welcome to MkDocs & Python
+# Welcome to MkDocs & Python & GitHub Pages
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+<!-- For full documentation visit [mkdocs.org](https://www.mkdocs.org). -->
 
 ---
 
-- [ ] 任务零 在线聊天
+- [ ] 任务零 [__知识文档(未完成)__](/blog/project-7/)
 - [x] 任务一 明暗主题  
 - [x] 任务二 python文档  
 - [x] 任务三 搜索功能
 
 
+---
+__经济的本质是科技，科技的本质是军工， 医药的本质是资本__
 
-~~删除线~~
-
-
+---
+<!--
+ ~~删除线~~
 第一列|第二列|第三列
 :-|-|-:
 a11|a12|a13
 a21|a22|a33
-a31|a32|a33
+a31|a32|a33 
+-->
 
 ## 命令 
 

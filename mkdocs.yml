@@ -109,7 +109,7 @@ markdown_extensions:
 copyright: Copyright &copy; 2022~2024 Hollin/All Rights Reserved. # 左下角的版权声明
 
 extra:
-  generator: true #是否删除页脚显示 
+  generator: false #是否删除页脚显示 
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/Hollin-git

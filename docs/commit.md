@@ -16,6 +16,6 @@ git push -u origin main
 
 ```
 // 书签
-See my [About](/about/author/) page for details.
+<!-- See my [About](/about/authorauthor.md) page for details. -->
 ## asd
 ![tupian](img/ip2.png)
