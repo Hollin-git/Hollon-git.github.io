@@ -16,6 +16,23 @@ title: 首页
 ---
 __经济的本质是科技，科技的本质是军工， 医药的本质是资本__
 
+
+git init 
+git add .
+git remote rename origin old-origin 
+git remote remove old-origin
+git remote add origin https://github.com/Hollon-git/Hollon-git.github.io.git
+
+git push -u origin main --all
+git push -u origin main --tags
+
+----
+git config --global user.email "hollon@163.com"
+git config --global user.name "Hollon-git"
+
+
+
+
 ---
 <!--
  ~~删除线~~
