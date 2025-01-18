@@ -12,22 +12,22 @@ tags:
 comments: true  #评论，默认不开启
 ---
 
-
+[[../blog/index|index]]
 
 ### One Developer
 
-::: tip
-一个热爱编程的程序员
-:::
+ 
+`一个热爱编程的程序员`
+ 
 
 ### Github
 
-::: tip
+ 
 [https://github.com/Hollin-git](https://github.com/Hollin-git)
-:::
+ 
 
 
-::: tip
+ 
 ## just One Developer
 
 ::: src.test
