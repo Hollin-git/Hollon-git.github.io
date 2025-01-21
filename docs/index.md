@@ -34,6 +34,17 @@ git config --global user.name "Hollon-git"
 
 
 ---
+
+<!-- # VSCODE 安装 通义千问  -->
+<!-- # cursor 写前端 完成  审批流程  -->
+
+pip install <package_name> -i https://mirrors.aliyun.com/pypi/simple/
+
+pip install -r requirements.txt -i https://mirrors.aliyun.com/pypi/simple/
+
+
+
+
 <!--
  ~~删除线~~
 第一列|第二列|第三列
