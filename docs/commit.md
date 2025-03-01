@@ -1,7 +1,27 @@
 ---
 title: 提交
 ---
-```shell 
+
+项目部署
+1. 下载本地项目 
+git clone https://gitee.com/luhollin/svc-network.git
+
+
+2. 安装python依赖包
+安装mkdocs 和 主题  material mkdocs-material
+还有python 注释解析包 mkdocstrings， "mkdocstrings[python]"
+
+pip install mkdocs
+pip install material
+pip install mkdocs-material
+pip install mkdocstrings 
+pip install "mkdocstrings[python]"
+
+
+
+
+
+```shell
 1. 本地没有.git目录 远程服务器已创建项目 
 cd project_dir
 git init
@@ -18,6 +38,12 @@ git remote rename origin old-origin
 git remote add origin https://github.com/Hollin-git/Hollon-git.github.io.git
 git push -u origin --all 
 git push -u origin --tags
+
+
+
+
+$ git config --global user.name "hollin"
+$ git config --global user.email 329964085@qq.com
 
 
 
@@ -48,4 +74,4 @@ See my [About](/about/authorauthor.md) page for details.
 ## 添加图片 其中 img 目录不会显示 可能是这个主题这样设定的 也可能是 mkdocs 预留目录img 
 ![tupian](img/ip2.png)
 
--->
+--> 
